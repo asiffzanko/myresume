@@ -13,7 +13,7 @@
     
     html, body, h1, h2, h3, h4, h5, h6 {font-family: "Roboto", sans-serif}
 
-    <style>
+
 body {
   color: red;
 }
@@ -38,12 +38,66 @@ p {
   padding: 10px;
   box-shadow: 4px 4px 7px rgb(88, 88, 100);
   margin: -0px;
+  transition: width 3s;
+  transition-delay: 1s;
+}
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: rgb(252, 252, 252);
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #d1f372;
+}
+
+.transition {
+
+  transition: width 3s;
+  transition-delay: 1s;
+}
+
+.transition :hover {
+  width: 300px;
 }
 
 </style>
-
-</style>
 </head>
+
+
+
 <body class="w3-grey">
 
 <!-- Page Container -->
@@ -60,8 +114,8 @@ p {
                     <img src="my_project.png" style="width:100%" alt="Avatar"><br>
                     
                 </div>
-                <br>         
-                <h2 class="w3-light-blue w3-text-white" id="holla"><center></i><b> IBNUL ASIFF BIN MALEK</center></b></h2>
+                <br>
+                <h2 class="w3-light-blue w3-text-white"  id="holla"><center></i><b> IBNUL ASIFF BIN MALEK</center></b></h2>
 
                 <div class="w3-container w3-card w3-white w3-margin-bottom"> 
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
@@ -100,26 +154,34 @@ p {
                
                 <p>Bahasa Melayu</p>
                     <div class="w3-grey w3-round-xlarge">
-                        <div class="w3-round-xlarge w3-light-blue" style="height:18px;width:90%"></div>
+                        <div class="w3-round-xlarge w3-light-blue" style="height:18px;width:98%"><center>98%</center></div>
                     </div>
                 <p>English</p>
                     <div class="w3-grey w3-round-xlarge">
-                        <div class="w3-round-xlarge w3-light-blue" style="height:18px;width:55%"></div>
+                        <div class="w3-round-xlarge w3-light-blue" style="height:18px;width:65%"><center>65%</center></div>
 
                     </div><br>
                 </div><br>
+
+                <div class="w3-light-blue w3-container w3-card w3-white w3-margin-bottom w3-text-grey">
+                <br>
                 <a><h2 class="w3-light-blue w3-text-white" id="holla"><center><i class="fa fa-bell w3-text-grey"></i><b> REFERENCES</b></center></h2></a>
-                    
                     <br>
+                    <div class="w3-light-blue w3-container w3-card w3-white w3-margin-bottom w3-text-grey">
                     <br>
                     <p><strong><center><b>PUAN JUMALIYAH BINTI JAHUTI</b></center></strong></p>
                     <p><strong><center>Department of Electronic Engineering 
                         (Computer) | JKE</center></strong></p>
                     <p><center>No : (+60)13-7634199</center></p>    
-                    <p><center>POLITEKNIK PORTDICKSON</center></p>
+                    <!--/div>
+                    <div class="w3-light-blue w3-container w3-card w3-white w3-margin-bottom w3-text-grey"-->
                     <br>
+                    <p><strong><center>Puan Nurhidayah Azirid</strong></center></p>
+                    <p><strong><center>Head Of Department (HOD Zanko)</strong></center></p>
+                    <p><strong><center>No : (+60)175106396</strong></center></p>
                     <br>
-                    <br>
+                    </div>
+                </div>    
                 </div>
             </div><br>
         <!-- End Left Column -->
@@ -130,33 +192,39 @@ p {
             
             <div class="w3-light-blue w3-container w3-card w3-white w3-margin-bottom w3-text-grey">
                 <br>
+                <div class="w3-container w3-card w3-white w3-margin-bottom">
+                <h2>
                 <h2 class="w3-light-blue w3-padding-16 w3-text-white" id="holla"><i class="fa fa-id-card fa-fw w3-margin-right w3-xxlarge w3-text-grey"></i>
+                </i><b>PROFESSIONAL BACKGROUND</b></h2>
+                <br>
+                <div class="w3-container w3-card w3-white w3-margin-bottom">
+                    <p>Experienced Support System professional with 2 years of expertise in managing tickets through System Helpdesk. Proficient in testing systems to identify scenarios and errors, with ability to make critical decisions and collaborate effectively with professional teams to achieve goals and resolve complex problems. Adept in ensuring to quality standards, enhancing product reliability, and contributing to continuous improvement initiatives. </p><hr>
+                </div>
+                </div>
+            <div class="w3-light-blue w3-container w3-card w3-white w3-margin-bottom w3-text-grey">
+                <br>
+                <h2 class="w3-light-blue w3-padding-16 w3-text-white" name= "transition" id="holla"><i class="fa fa-id-card fa-fw w3-margin-right w3-xxlarge w3-text-grey"></i>
                 </i><b>WORK EXPERIENCE</b></h2>
                 <br>
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
                     <h5 class="w3-opacity w3-padding-6"><b><em>ZANKO SDN BHD</em></b></h5>
-                    <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>7 Feb 2022 - <span class="w3-tag w3-light-blue w3-round">Current</span></h6>
-                    <p>- Working as Functional Engineer (FE) or system support at company.</p>
-                    <p>- Use ticket to comunicate with client</p>
-                    <p>- Helping client with using ticket to comunicate with client problem using our system.
-                    </p><hr>
+                    <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>7 Feb 2022 - <span class="w3-tag w3-light-blue w3-round">Present</span></h6>
+                    <p>Developed alternative solutions to meet user requirements and created comprehensive test case scenarios.</p>
+                    <p>Maintain solution for online marking system and monitoring efforts, ensuring alignment with customer requirements and successful implementation Conducted thorough testing of applications through unit testing, functional testing, and application testing to verify compatibility with requirements.</p>
+                    <p>Addressed and reproduce reported bugs, demonstrating strong problem-solving skills.</p>
+                    <p>Provided end-user support and managed helpdesk tickets in accordance with Service Level Agreements.</p>
+                    <p>Facilitated training sessions tailored to end-user needs, enhancing user proficiency and satisfaction.</p>
+                    <hr>
         
-                    <div class=" w3-white">
-                        <h5 class="w3-opacity"><b><em>AL-IKHSAN EMPLOYEE</em></b></h5>
-                        <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i> Sep 2021 - Nov 2021</span></h6>
-                        <p>- Assist customers in all aspects in store service.</p>
-                        <p>- Served customer as friendly, hard working and work well in teams.
-                        </p><hr>
-
-                        
                         <div class=" w3-white">
                             <h5 class="w3-opacity"><b><em>QA INSPECTOR PANASONIC (INTERN)</em></b></h5>
                             <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mac 2021 - August 2021</span></h6>
-                            <p>- The function QA inspector for qualifiel standards, processes, and procedures are currently implemented.</p>
-                            <p>- QA is the process or managing for quality product.
-                            </p><hr>
+                            <p>QA inspector ensure products meet established quality standards and industry benchmarks which is make sure machine for testing air conditioner implemented efficiently.</p>
+                            <p>Identifying and reporting any deviations or non-conformities to quality standards and collaborating with production teams to implement better actions.</p>
+                            <p>Assist team leader for supporting in troubleshooting machinery, and put commitment to safety and operational efficiency.</p>
+                            <hr>
 
-                            <div class="w3-white ">
+                            <!--div class="w3-white ">
                                 <h5 class="w3-opacity"><b><em>SUPERVISOR ASSISTANT</em></b></h5>
                                 <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2016 - Oct 2016</span></h6>
                                 <p>- Prepares food neatly, accurately and in a timely manner.</p>
@@ -164,19 +232,18 @@ p {
                                 <p>- Exhibits cheerful and helpful manner when dealing with guests.
                                 </p><hr>
 
-                                <div class=" w3-white">
+                                <!--div class=" w3-white">
                                     <h5 class="w3-opacity"><b><em>STORE EMPLOYEE</em></b></h5>
                                     <h6 class="w3-text-blue"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2016 - Oct 2016</span></h6>
                                     <p>- Assist customers in all aspects in store service.</p>
                                     <p>- Served customer as friendly, hard working and work well in teams.
                                     </p><hr>
- 
-                                </div>
-                            </div>
+                                </div-->
+                            </div-->
                         </div>
-                    </div>
                 </div>
             </div>
+            <div class="w3-light-blue w3-container w3-card w3-white w3-margin-bottom w3-text-grey">
             <div class="w3-container w3-cardd w3-white w3-margin-bottom">
                 <br>
                 <h2 class="w3-light-blue w3-text-white w3-padding-16" id="holla"><i class="fa fa-book fa-fw w3-margin-right w3-xxlarge w3-text-grey"></i><b>EDUCATION</b></h2>
@@ -184,27 +251,43 @@ p {
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
                     <h5 class="w3-opacity"><b><em>DIPLOMA, POLITEKNIK PORTDICKSON (NEGERI SEMBILAN)</em></b></h5>
                     <h6 class="w3-text-blue"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> November 2017 - August 2021</h6>
-                    <p>- Learning basic programming and electric study and major in computer component.</p>
-                    <p>- Have learned in course engineering electrical electronic computer for 3 years and half.
+                    <p>Learning basic programming and electric study and major in computer component.</p>
+                    <p>Have learned in course engineering electrical electronic computer for 3 years and half.
                     </p><hr>
         
                 <div class=" w3-white w3-margin-bottom">
                     <h5 class="w3-opacity"><b><em>PRA DIPLOMA SAINS, POLITEKNIK SULTAN ABDUL HALIM MU'ADZAM SHAH (KEDAH)<em></b></h5>
                     <h6 class="w3-text-blue"><i class="fa fa-calendar-check-o" aria-hidden="true"></i> Disember 2016 - Oktober 2017</h6>
-                    <p>- Learning basic Sains before go through to Diploma.</p>
-                    <p>- Have been study in course Pra Diploma Sains for 1 years.
+                    <p>Learning basic Sains before go through to Diploma.</p>
+                    <p>Have been study in course Pra Diploma Sains for 1 years.
                     </p><hr>
-         
-                <div class=" w3-white w3-margin-bottom">
-                    <h5 class="w3-opacity"><b><em>SPM, SEKOLAH MENENGAH TAMAN SRI RAMPAI (KUALA LUMPUR)<em></b></h5>
-                    <h6 class="w3-text-blue"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>  November 2017 - August 2021</h6>
-                    <p>- Taking class of perdagangan for two years.</p>
-                    <p>- Participate and deputy in sport volleyball.
-                    </p><hr>
+       
+                <!--div class="dropdown">
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                    <a href="#">Instgram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Telegram</a>
+                    <a href="https://wa.me/+60193170807/"target="_blank">Whatapps</a>
+                    </div>
+                </div-->
                 </div>
             </div>
         </div>
-   
+        </div>
+
+        <div class="w3-light-blue w3-container w3-card w3-white w3-margin-bottom w3-text-grey">
+            <br>
+            <a><h2 class="w3-light-blue w3-text-white" id="holla"><center><i class="fa fa-bell w3-text-grey"></i><b> PROJECT EXPERIENCE</b></center></h2></a>
+                <br>
+                <div class="w3-light-blue w3-container w3-card w3-white w3-margin-bottom w3-text-grey">
+                <p><strong><b>ZANKO SDN BHD</b></strong></p>
+                <p>FUNCTIONAL ENGINEER (IT SUPPORT)</p>
+                <p>Web Application || Online Marking System, System Helpdesk, Tracking System </p>    
+                <p>Vendor Involving || Lembaga Peperiksaan Malaysia (LPM),
+                   Majlis Peperiksaan Malaysia (MPM)</p>    
+            </div> 
+        </div> 
 
         <!-- End Right Column -->
         </div>
@@ -214,22 +297,23 @@ p {
 <!-- End Page Container -->
 </div>
 <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+
 <footer class="w3-container w3-light-blue w3-center w3-margin-top">
-    <p>Find me on my social media</p>
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-telegram w3-hover-opacity"></i>
+    <p>You can click the icon to my social media</p>
+    <a href="https://www.facebook.com/"target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/?hl=en"target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.twitter.com/?hl=en"target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://wa.me/+60193170807/"target="_blank"><i class="fa fa-whatsapp w3-hover-opacity"></i></a>
 
 
 
-<p class="w3-small">You can click the button below to go through to my social media</p>
+<p class="w3-small">You can click the button below to go through to my Linkedin</p>
 <a class="w3-button w3-round-xxlarge w3-small w3-grey w3-text-white w3-margin-bottom" href="https://www.linkedin.com/in/ibnul-asiff-b14a94245/"
 target="_blank">Click Here!</a>
 
 <!-- End Footer -->
 </footer>
 
+
 </body>
 </html>
-
